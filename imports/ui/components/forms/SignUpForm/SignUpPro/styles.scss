@@ -1,0 +1,21 @@
+.signUpPro {
+  margin-top: 1rem;
+  width: 500px;
+  &__entry {
+    margin-top: 2rem;
+  }
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    .form-group {
+      width: 49%;
+    }
+  }
+  .forgot-link {
+    font-weight: 700;
+    &:hover {
+      cursor: pointer;
+      color: #0a58ca;
+    }
+  }
+}

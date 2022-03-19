@@ -1,0 +1,9 @@
+.ServiceDetailsProvider {
+  .opinion-box {
+    display: flex;
+    justify-content: space-between;
+    &__btn {
+      width: 49%;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.login-box {
+  width: 75rem;
+  padding: 2rem;
+  background: #f5f5f5;
+  .MuiInputBase-input {
+    font-size: 1.6rem;
+    background: #fff;
+  }
+}
+.signUp-tabs {
+  &__head {
+    .MuiButtonBase-root {
+      width: 45%;
+      //color: #fff;
+      padding: 0.5rem 1rem;
+      font-size: 1.6rem;
+      font-weight: 500;
+
+      &.Mui-selected {
+        //color: #fff;
+      }
+    }
+    .MuiTabs-flexContainer {
+      justify-content: space-between;
+    }
+    .MuiTabs-indicator {
+      //background-color: #d9c505;
+    }
+  }
+  .MuiInputBase-adornedEnd {
+    background: #fff;
+  }
+}
+.login-btn {
+  .MuiButton-root {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

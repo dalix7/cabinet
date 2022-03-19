@@ -1,0 +1,7 @@
+.add-skill {
+  display: flex;
+  justify-content: space-between;
+  &__entry {
+    width: 70%;
+  }
+}

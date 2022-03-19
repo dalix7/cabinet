@@ -1,0 +1,41 @@
+.entry {
+  width: 100%;
+
+  
+
+  .MuiOutlinedInput-root {
+    border-radius: 0.36rem;
+  }
+
+  .MuiOutlinedInput-input {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.5px;
+    font-style: normal;
+    padding: 15px 15px;
+  }
+
+  .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #03256c;
+    border-width: 1px;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    top: 0;
+    border-color: #d4d9e2;
+    transition: all 0.3s ease;
+    legend {
+      display: none;
+    }
+  }
+
+  .MuiOutlinedInput-multiline {
+    padding: 0;
+  }
+
+  .MuiFormHelperText-root.Mui-error {
+    font-family: "CircularStd";
+    font-size: 13px;
+  }
+}

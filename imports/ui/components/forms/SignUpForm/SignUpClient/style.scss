@@ -1,0 +1,11 @@
+.sign-up-form {
+  margin-top: 1rem;
+  width: 500px;
+  .forgot-link {
+    font-weight: 700;
+    &:hover {
+      cursor: pointer;
+      color: #0a58ca;
+    }
+  }
+}

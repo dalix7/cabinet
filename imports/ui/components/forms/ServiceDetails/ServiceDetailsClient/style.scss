@@ -1,0 +1,14 @@
+.ServiceDetailsClient {
+  .opinion-box {
+    display: flex;
+    justify-content: space-between;
+    &__btn {
+      width: 49%;
+    }
+  }
+  .btn {
+    &--review {
+      margin-top: 2rem;
+    }
+  }
+}
